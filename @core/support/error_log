@@ -1,0 +1,46 @@
+[13-Jul-2022 20:12:29 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/bhpegejb/altdream.app/support/index.php on line 241
+[13-Jul-2022 20:12:29 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/bhpegejb/altdream.app/support/index.php on line 241
+[13-Jul-2022 20:12:29 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/bhpegejb/altdream.app/support/index.php on line 241
+[13-Jul-2022 20:12:29 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/bhpegejb/altdream.app/support/index.php on line 241
+[13-Jul-2022 20:12:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugins_url() in /home/bhpegejb/altdream.app/support/index.php:241
+Stack trace:
+#0 /home/bhpegejb/altdream.app/support/index.php(237): sb_installation_array()
+#1 /home/bhpegejb/altdream.app/support/index.php(16): sb_on_activation()
+#2 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 241
+[13-Jul-2022 20:12:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bhpegejb/altdream.app/support/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 304
+[13-Jul-2022 20:12:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bhpegejb/altdream.app/support/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 304
+[13-Jul-2022 20:12:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bhpegejb/altdream.app/support/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 304
+[13-Jul-2022 20:12:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bhpegejb/altdream.app/support/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 304
+[13-Jul-2022 20:13:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bhpegejb/altdream.app/support/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 304
+[13-Jul-2022 20:13:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bhpegejb/altdream.app/support/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 304
+[13-Jul-2022 20:13:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bhpegejb/altdream.app/support/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 304
+[13-Jul-2022 20:18:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bhpegejb/altdream.app/support/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 304
+[13-Jul-2022 20:24:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/bhpegejb/altdream.app/support/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/bhpegejb/altdream.app/support/index.php on line 304

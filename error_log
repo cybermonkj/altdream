@@ -1,0 +1,76 @@
+[06-Jul-2022 08:20:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'cybermonkj_altdream1'@'localhost' (using password: YES) in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'cybermonkj_altd...', 'LxJq_w#)r5#K', Array)
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'cybermonkj_altd...', 'LxJq_w#)r5#K', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFac in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 08:26:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 08:26:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 08:39:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 08:50:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 10:39:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 11:09:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 11:24:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 11:40:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 11:57:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[06-Jul-2022 13:10:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhpegejb_altdream1.static_options' doesn't exist in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bhpegejb/altdream.app/@core/vendor/ in /home/bhpegejb/altdream.app/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
