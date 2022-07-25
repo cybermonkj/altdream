@@ -2509,7 +2509,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .navbar-area.nav-style-02 .nav-container .logo-wrapper {
-    background-color: rgb(0, 6, 121);
+    background-color: #ffffff255);
     position: absolute;
     top: -35px;
     box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.2);
@@ -2574,7 +2574,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li a {
     transition: all 0.3s ease-in;
-    color: var(--main-color-two);
+    color: black;
 }
 
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li:hover.menu-item-has-children:before {
